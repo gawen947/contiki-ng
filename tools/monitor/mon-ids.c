@@ -26,12 +26,12 @@
 
 
 /* Includes IDs directly from Contiki. */
-#include "../../core/mon/states.h"
-#include "../../core/mon/context.h"
-#include "../../core/mon/context/control.h"
-#include "../../core/mon/context/mon-ct-radio.h"
-#include "../../core/mon/context/mon-ct-powercycle.h"
-#include "../../core/mon/context/mon-xp.h"
+#include "../../os/mon/states.h"
+#include "../../os/mon/context.h"
+#include "../../os/mon/context/control.h"
+#include "../../os/mon/context/mon-ct-radio.h"
+#include "../../os/mon/context/mon-ct-powercycle.h"
+#include "../../os/mon/context/mon-xp.h"
 
 /* Macro to ease registering context, state, entities names. */
 #define REG_CTX(context) reg_context_name(MON_CT_ ## context, #context)
