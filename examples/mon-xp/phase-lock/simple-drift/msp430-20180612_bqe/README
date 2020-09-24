@@ -1,0 +1,8 @@
+
+Experiment with MSP430 external clock
+=====================================
+(c) 2018, Bruno Quoitin (bruno.quoitin@umons.ac.be)
+
+XIN can accept a clock signal of frequency between 0.4 and 16 MHz.
+Is it possible to provide a lower frequency, say 32768 Hz ?
+

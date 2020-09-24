@@ -1,0 +1,10 @@
+CONTIKI = ../../../../../..
+CONTIKI_PROJECT = void
+
+CFLAGS += -DUIP_CONF_ND6_SEND_NA=1 -DUIP_CONF_ROUTER=1 -DNETSTACK_CONF_RDC=nullrdc_driver
+
+all: $(CONTIKI_PROJECT)
+
+CONTIKI_WITH_IPV6 = 1
+CONTIKI_WITH_RPL  = 0
+include $(CONTIKI)/Makefile.include

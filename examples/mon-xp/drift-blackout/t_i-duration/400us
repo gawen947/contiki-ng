@@ -1,0 +1,10 @@
+Num strobes: 54361
+Average strobe duration: (575.932838 +/- 13.446280) µs
+Min strobe duration: 559.000000 µs
+Max strobe duration: 1150.000000 µs
+Percentiles:
+ 5th: 563.000000
+ 25th: 573.000000
+ 50th: 576.000000
+ 75th: 578.000000
+ 95th: 584.000000
